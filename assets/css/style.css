@@ -1,4 +1,49 @@
 body {
     display: grid;
+    grid-template-columns: auto;
     gap: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: beige;
+}
+header {
+    background-image: url("/assets/imagens/home.png");
+    /* height: 40rem; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #408ED3;
+    text-align: center;
+}
+header > h1,span {
+    /* margin-top: 13rem; */
+    color: white;
+    /* font-family: 'Kaushan Script', cursive;
+    font-size: 3rem; */
+}
+nav > ul {
+    list-style: none;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+.nav-bar ul > li {
+    display: inline;
+    padding-right: 10rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+hr {
+    width: 96%;
+    margin-bottom: 0.2rem;
+}
+
+.rodape, .rodape > span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1rem;
+    color: black !important;
 }
