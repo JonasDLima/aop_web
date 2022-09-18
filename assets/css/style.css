@@ -42,7 +42,7 @@ hr {
     margin-bottom: 0.2rem;
 }
 
-.rodape, .rodape > span {
+.rodape {
     font-family: 'Kaushan Script', cursive;
     font-size: 1rem;
     color: black !important;
