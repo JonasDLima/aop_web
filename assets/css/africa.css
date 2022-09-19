@@ -9,4 +9,6 @@ section img { width: 30%;
 
 }
     .costela {width: 37.5%;
+ 
+        grid-template-columns: auto auto;
   }
